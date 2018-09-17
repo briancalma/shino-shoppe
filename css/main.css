@@ -118,6 +118,40 @@ body {
     float: left;
 }
 
-.person-block img{
+.person-block img {
     border-radius: 100%;
+}
+
+.section-subtitle {
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+}
+
+.contact-block {
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.contact-block img {
+   width: 100px;
+   height: 100px; 
+}
+
+.contact-block a {
+    font-size: 40px;
+    text-decoration: none;
+    color: #222222;
+    padding: 20px;
+ }
+ 
+
+ #main-footer {
+    background-color: #2c3e50;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100px;
 }

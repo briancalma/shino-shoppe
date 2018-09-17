@@ -22,14 +22,16 @@
                 <li>
                     <a href="#">Home</a>
                 </li>
+                <!-- 
+                    <li>
+                        <a href="#">About Us</a>
+                    </li> 
+                -->
                 <li>
-                    <a href="#">About Us</a>
+                    <a href="#products-section">Products</a>
                 </li>
                 <li>
-                    <a href="#">Products</a>
-                </li>
-                <li>
-                    <a href="#">Contact Us</a>
+                    <a href="#contact-us-section">Contact Us</a>
                 </li>
             </ul>
         </div>
@@ -38,7 +40,7 @@
     <section id="banner-section">
         <div class="container">
             <h2>The fashion trend at your best.</h2>
-            <center><button>Browse</button></center>
+            <center><button onclick="window.location='#products-section'">Browse</button></center>
         </div>
     </section>
 
@@ -85,7 +87,7 @@
         </div>
     </section>
 
-    <section id="about-section">
+    <!-- <section id="about-section">
         <div class="container">
             <h1 class="section-title">About Us</h1>
             
@@ -103,26 +105,31 @@
 
             <div class="clear"></div>
         </div>
-    </section>
+    </section> -->
 
     <section id="contact-us-section">
         <div class="container">
-            <h1>Contact Us</h1>
-            <h2>You can reach us using the links below :</h2>
+            <h1 class="section-title">Contact Us</h1>
+            <h2 class="section-subtitle">You can reach us using the links below :</h2>
 
             <div class="contact-block">
-                <img src="images/default.png" alt="contact us"> 
-                <p>Facebook</p>
+                <img src="images/facebook.png" alt="contact us"> 
+                <a href="https://www.facebook.com/ShinOShoppe/">Shin O' Shoppe Facebook Page</a>
             </div>
 
             <div class="contact-block">
-                <img src="images/default.png" alt="contact us"> 
-                <p>Google</p>
+                <img src="images/google.png" alt="contact us"> 
+                <a href="https://plus.google.com/u/0/107860272655731798028">Shin O' Shoppe Gmail</a>
+            </div>
+
+            <div class="contact-block">
+                <img src="images/mobile.png" alt="contact us"> 
+                <a href="#">09154071889</a>
             </div>
         </div>
     </section>
 
-    <footer>
+    <footer id="main-footer">
         <div class="container">
             <p>All rights reserved &copy; Shin O' Shoppe 2018</p>
         </div>
